@@ -1,0 +1,20 @@
+{
+    "tabWidth": 4,
+    "semi": true,
+    "printWidth": 70,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "overrides": [
+        {
+            "files": ["*.html"],
+            "options": {
+                "bracketSameLine": false
+            }
+        },
+        {
+            "files": ".prettierrc",
+            "options": { "parser": "json" }
+        }
+    ]
+}
