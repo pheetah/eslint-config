@@ -24,6 +24,6 @@ module.exports = {
         "no-array-constructor": "error",
         "camelcase": ["error", {"properties": "always", "ignoreDestructuring": true, "ignoreGlobals": true}],
         "brace-style": ["error", "stroustrup"],
-        "eslint no-inline-comments": "error"
+        "no-inline-comments": "error"
     }
 };
