@@ -17,6 +17,7 @@ module.exports = {
     "function-call-argument-newline": ["error", "always"],
     "func-call-spacing": ["error", "never"],
     "computed-property-spacing": ["error", "never"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
     "dot-location": ["error", "property"],
     "no-new-object": "error",
     "semi-spacing": ["error", { before: false, after: true }],
