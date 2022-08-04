@@ -1,32 +1,30 @@
 console.log("hello");
 
 function u(){
-    console.log("m");
+  console.log("m");
 }
 
 function g(t, l, y){
-    console.log("hihi");
+  console.log("hihi");
 }
 
-g(
-    "a",
-    "b",
-    "c"
-);
+g("a",
+"b",
+"c");
 
 function x(
-    a,
-    b,
-    c,
-    d,
-    e,
-    r,
-    werqwerqwer,
-    werqwerqwerqwerqwerqwerqwerqwerqwerqwer,
-    qwerqwerq,
-    asdasd
+  a,
+  b,
+  c,
+  d,
+  e,
+  r,
+  werqwerqwer,
+  werqwerqwerqwerqwerqwerqwerqwerqwerqwer,
+  qwerqwerq,
+  asdasd
 ){
-    return 1;
+  return 1;
 }
 
 const y = { a: "xdd", b: "sd" };
@@ -34,8 +32,8 @@ const y = { a: "xdd", b: "sd" };
 let om = y.a;
 
 let q = 1;
-if(q === 1){
-    console.log("helo");
+if (q === 1){
+  console.log("helo");
 }
 
 let m = 1;
