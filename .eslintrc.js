@@ -34,6 +34,7 @@ module.exports = {
     ],
     "brace-style": ["error", "stroustrup"],
     "no-inline-comments": "error",
-    "space-infix-ops": ["error", { "int32Hint": false }]
+    "space-infix-ops": ["error", { "int32Hint": false }],
+    "keyword-spacing": ["error", { "after": false }]
   },
 };

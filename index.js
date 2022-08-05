@@ -32,7 +32,7 @@ const y = { a: "xdd", b: "sd" };
 let om = y.a;
 
 let q = 1;
-if (q === 1){
+if(q === 1){
   console.log("helo");
 }
 

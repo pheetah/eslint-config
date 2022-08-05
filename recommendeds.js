@@ -62,10 +62,16 @@ catch(error){
 	console.log(error); 
 }
 
-// 
-if(isOk){ 
-	alert("accepted"); 
-} 
+/* 
+	5.2: There should be no space between a control statement keyword and its opening parenthesis. 
+		There should be no space between the parentheses and the opening curly brace. 
+		Also in scope define and initialize properly using a let keyword.
+*/
+{
+	if(isOk){ 
+		alert("accepted"); 
+	}
+}
 
 let cats = ["orange", "white", "black"];
 for(let i of cats){ 
