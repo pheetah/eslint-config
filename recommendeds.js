@@ -12,8 +12,6 @@
 	- No example with more than 10 rows should be accepted.
 */
 
-const isOk = true;
-
 /* 
 	2.1.2: use lower camel case for function naming:
 */
@@ -84,6 +82,8 @@ catch(error){
 		Also in scope define and initialize properly using a let keyword.
 */
 {
+	const isOk = true;
+
 	if(isOk){ 
 		alert("accepted"); 
 	}
