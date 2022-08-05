@@ -6,7 +6,7 @@
 	- Last Edited: Aug 5, 2020 (9:28 AM)
 
 	Rules:
-	- Please leave 2 spaces after each example.
+	- Please leave 2 newlines after each example.
 	- Please wrap your examples in scopes. Avoid creating global variables.
 	- Please edit the file with understandable format. Try to keep it simple.
 	- No example with more than 10 rows should be accepted.
@@ -66,6 +66,7 @@ function respond(
 	console.log(name === "Fatih");
 }
 
+
 /*
 	5.1: Handle errors in try-catch blocks or create if-else statements in the following format.
 */
@@ -75,6 +76,7 @@ try{
 catch(error){ 
 	console.log(error); 
 }
+
 
 /* 
 	5.2: There should be no space between a control statement keyword and its opening parenthesis. 
@@ -103,12 +105,14 @@ catch(error){
 	}
 }
 
+
 /* 
 	6.1: Use literals on initializing arrays. Do not use constructors on initializing arrays.
 */
 {
 	let productList = [];
 }
+
 
 /* 
 	6.2: Use literals on initializing objects. Do not use constructors on initializing objects.
