@@ -1,9 +1,24 @@
+/* 
+	JavaScript Coding Standard Example Project
+	- There exist rules for the list in "Kentkart Mobile Javascript Coding Standards Document"
+
+	- Date Created: Aug 4, 2022
+	- Last Edited: Aug 5, 2020 (9:28 AM)
+
+	Rules:
+	- Please leave 2 spaces after each example.
+	- Please wrap your examples in scopes. Avoid creating global variables.
+	- Please edit the file with understandable format. Try to keep it simple.
+	- No example with more than 10 rows should be accepted.
+*/
+
 const isOk = true;
 
 /* 
 	2.1.2: use lower camel case for function naming:
 */
 function sayHello(){}
+
 
 /*
 	2.1.3: There should be no space between function name and the function parameters 
@@ -12,6 +27,7 @@ function sayHello(){}
 function sayHello2(){ 
 	console.log("hello"); 
 } 
+
 
 /* 
 	2.1.4: Put spacing on long parameter pass and bundle primitives into objects.
@@ -73,7 +89,30 @@ catch(error){
 	}
 }
 
-let cats = ["orange", "white", "black"];
-for(let i of cats){ 
-	alert("meow"); 
+
+/* 
+	5.2: There should be no space between a control statement keyword and its opening parenthesis. 
+		There should be no space between the parentheses and the opening curly brace. 
+		Also in scope define and initialize properly using a let keyword.
+*/
+{
+	let cats = ["orange", "white", "black"];
+
+	for(let i of cats){ 
+		alert("meow"); 
+	}
+}
+
+/* 
+	6.1: Use literals on initializing arrays. Do not use constructors on initializing arrays.
+*/
+{
+	let productList = [];
+}
+
+/* 
+	6.2: Use literals on initializing objects. Do not use constructors on initializing objects.
+*/
+{
+	let product = {};
 }
